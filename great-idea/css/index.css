@@ -64,3 +64,156 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 878px;
+	margin: auto;
+	border:solid 3px black
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+header nav a{
+	margin: 0 25px;
+	margin-top: 35px;
+	text-decoration: none;
+	color: silver;
+}
+
+header .logo {
+	margin-left: 689px;
+}
+
+.services-header-img {
+	box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin: 50px -4px;
+}
+
+.services { 
+	display: flex;
+    flex-direction: column;
+    margin: -36px 80px 19px 100px;
+    box-sizing: border-box;
+    width: 666px;
+    height: 87px;
+}   
+h1{
+	font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1px;
+}
+hr{
+	border:solid 1px;
+}
+.digital-desgin{
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 260px;
+    margin-right: 631px;
+    margin-left: 102px;
+    border: 3px solid;
+    background-color: silver;
+}
+
+.ux-ut{
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+    margin-left: 471px;
+    margin-right: 204px;
+    margin-bottom: 65px;
+    margin-top: -208px;
+    width: 287px;
+    height: 214px;
+    border: solid 3px;
+    background-color: silver;
+}
+button{
+    width: 112px;
+    margin-left: 55px;
+}
+
+
+.digital-marketing{
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+    width: 275px;
+    background-color: silver;
+    border: 3px solid;
+    height: 192px;
+    margin-top: 53px;
+    margin-left: 94px;
+}
+.web-development{
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 3px solid;
+    width: 309px;
+    margin-left: 468px;
+    background-color: silver;
+    margin-top: -181px;
+	height: 180px;
+}
+.ios-development{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+    width: 316px;
+    border: 3px solid;
+    background-color: silver;
+    margin-left: 70px;
+    height: 195px;
+    margin-top: 50px;
+    margin-right: -36px;
+}
+.android-development{
+	display:flex;
+	flex-direction: column;
+	width: 315px;
+    border: solid 3px;
+    height: 199px;
+    background: silver;
+    justify-content: space-between;
+    margin-left: 483px;
+    margin-bottom: 38px;
+    margin-top: -197px;
+}
+.facts{
+	display: flex;
+	flex-direction: column;
+	margin: 100px;
+	width: 293px;
+	font-size: 19px;
+	margin-top:9px;
+	margin-left:10px
+	
+}
+ul{
+	list-style: square inside;
+
+}
+ul{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.services-info-img{
+	flex-direction: row;
+    display: flex;
+    margin-left: 346px;
+    margin-top: -374px;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 59px;
+    margin-bottom: 50px;
+}
